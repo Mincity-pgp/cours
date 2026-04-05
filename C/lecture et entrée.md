@@ -1,4 +1,4 @@
-<span style="color: #3498db">6. affichage et entrée</span>
+<span style="color: #3498db">3. affichage et entrée</span>
 
 En C, on utilise principalement deux fonctions pour interagir avec l’utilisateur : `printf` pour afficher et `scanf` pour lire une valeur.
 
