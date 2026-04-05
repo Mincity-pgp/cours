@@ -60,6 +60,6 @@ Explications :
 
 * `#include <stdio.h>` → on inclut la bibliothèque pour pouvoir utiliser `printf`
 * `int main()` → c’est la fonction principale, le programme commence ici
-* `printf("hello world!\n");` → affiche du texte dans la console
+* `printf("hello world!\n");` → affiche du texte dans la console, il est important de mettre \n pour ne couper le texte et sauter la ligne
 * `\n` → permet de faire un retour à la ligne pour une meilleure lisibilité
 * `return 0;` → indique que le programme s’est terminé correctement
