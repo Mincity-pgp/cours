@@ -3,6 +3,7 @@
 - vs code commme ide https://code.visualstudio.com/Download
 
 linux : installer le paquet **.deb** et extraire avec cette commande : **dpkg-deb -x nom_du_paquet.deb répertoire_destination**
+wind ; simplement installer l'executable et le lancer comme n'importe quelle aplication sur windows 
 
 rdv sur votre ide et ouvrir un terminal situé en haut a gauche a coté de la barre de recherche, tapé la commande suivant : **sudo apt install gcc**, puis pour voir si cela a correctement été installé vous pouvez faire **gcc --version**
 
@@ -49,19 +50,3 @@ pour indiquer le type de variable dans notre code nous allon devoir utiliser des
 - %x : entier non signé en notation hexadécimale (type unsigned int)
 - %p : pointeur (adresse mémoire)
 
-### <span style="color: #3498db"> 2. les incrémentation 
-
-ce que j'appelle les incrementation sont les élément qu'on va devoir appeller pour faire fonctionner notre code par exemple pour ecrire un "**hello world**"
-nous devond ecrire :
-
-#include <stdio.h>  //pour utiliser printf
-
-int main()  //fonction main, execution première  
-{   
-    printf("hello world!\n");   //affiche le message    
-    return 0;   //ici fait terminer le main     
-}
-
-ici nous appelons la bibliotheque stdio.h pour pouvoir utiliser le printf   
-nous declarons aussi notre fonction principale,notre **main**, fonction principale de notre code     
-dans le printf nous pouvons voir \n qui nous sert a sauter une ligne pour pouvoir lire clairement et ne pas avoir tous a la suite qui se colle en une seul ligne mais dans une forme de texte 
