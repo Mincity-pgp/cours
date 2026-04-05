@@ -1,0 +1,120 @@
+<span style="color: #3498db">4. opérateurs</span>
+
+Les opérateurs permettent de manipuler des valeurs, faire des calculs ou prendre des décisions dans un programme.
+
+---
+
+**Opérateurs arithmétiques :**
+
+Ils servent à faire des calculs mathématiques.
+
+* `+` → addition
+* `-` → soustraction
+* `*` → multiplication
+* `/` → division
+* `%` → modulo (reste d’une division)
+
+Exemple :
+
+```c
+int a = 10;
+int b = 3;
+
+printf("%d\n", a + b); // 13
+printf("%d\n", a - b); // 7
+printf("%d\n", a * b); // 30
+printf("%d\n", a / b); // 3 (division entière)
+printf("%d\n", a % b); // 1 (reste)
+```
+
+⚠️ Attention :
+
+* La division entre entiers (`int`) donne un entier (pas de virgule)
+* `%` fonctionne uniquement avec des entiers
+
+---
+
+**Opérateurs de comparaison :**
+
+Ils permettent de comparer des valeurs.
+Le résultat est toujours :
+
+* `1` → vrai
+
+* `0` → faux
+
+* `==` → égal à
+
+* `!=` → différent de
+
+* `<` → inférieur à
+
+* `>` → supérieur à
+
+* `<=` → inférieur ou égal
+
+* `>=` → supérieur ou égal
+
+Exemple :
+
+```c
+int a = 5;
+int b = 10;
+
+printf("%d\n", a == b); // 0 (faux)
+printf("%d\n", a != b); // 1 (vrai)
+printf("%d\n", a < b);  // 1
+printf("%d\n", a > b);  // 0
+```
+
+⚠️ Attention :
+
+* `==` compare
+* `=` assigne (donne une valeur) → erreur très fréquente
+
+---
+
+**Opérateurs logiques :**
+
+Ils permettent de combiner plusieurs conditions.
+
+* `&&` → ET (vrai si les deux conditions sont vraies)
+* `||` → OU (vrai si au moins une condition est vraie)
+* `!` → NON (inverse une condition)
+
+Exemple :
+
+```c
+int a = 5;
+int b = 10;
+
+printf("%d\n", (a < b && b > 0)); // 1 (vrai)
+printf("%d\n", (a > b || b > 0)); // 1 (vrai)
+printf("%d\n", !(a < b));         // 0 (faux)
+```
+
+---
+
+**Exemple combiné :**
+
+```c
+int age = 20;
+
+if (age >= 18 && age <= 25)
+{
+    printf("Jeune adulte\n");
+}
+```
+
+Explication :
+
+* `age >= 18` ET `age <= 25` doivent être vrais
+* Si c’est le cas, le message s’affiche
+
+---
+
+**À retenir :**
+
+* Arithmétiques → calculs
+* Comparaison → tester des valeurs (vrai/faux)
+* Logiques → combiner des conditions
