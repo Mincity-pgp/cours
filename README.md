@@ -1,26 +1,31 @@
-# Apprentissage du C
+# Apprentissage de la programmation
 
-Ce dépôt a pour but de centraliser toutes les notes, exemples et exercices pour apprendre le langage C.  
-Il est conçu pour **les débutants** qui veulent comprendre les bases, mais aussi pour **les développeurs** souhaitant améliorer, optimiser ou rendre leur code plus fluide et efficace.
+Ce dépôt centralise des **notes, exemples et exercices** pour apprendre différents langages de programmation.  
+Il est conçu pour **les débutants** souhaitant comprendre les bases, mais aussi pour **les développeurs** qui veulent améliorer, optimiser ou rendre leur code plus fluide et efficace.
 
 ## Contenu
 
-- Installation et configuration de l'environnement (VS Code, GCC)
-- Variables et types de données
-- Entrée et sortie (printf, scanf)
-- Opérateurs (arithmétiques, logiques, comparaison)
-- Conditions et boucles (if, switch, while, for)
-- Fonctions et portée des variables
-- Tableaux et chaînes de caractères
-- Mémoire dynamique (malloc, free)
-- Bonnes pratiques et optimisation simple
+Le dépôt peut inclure (selon le langage choisi) :
+
+- Installation et configuration de l'environnement (IDE, compilateurs ou interpréteurs)  
+- Variables et types de données  
+- Entrée et sortie (ex. printf, scanf, input)  
+- Opérateurs (arithmétiques, logiques, comparaison)  
+- Conditions et boucles (if, switch, while, for)  
+- Fonctions et portée des variables  
+- Tableaux, listes et chaînes de caractères  
+- Mémoire dynamique et gestion des ressources  
+- Bonnes pratiques et optimisation simple  
 
 ## Objectif
 
 Permettre à chacun de :
 
-- Comprendre les concepts essentiels du C  
+- Comprendre les concepts essentiels de différents langages  
 - Écrire des programmes simples et fonctionnels  
-- Appliquer de bonnes pratiques pour un code clair, sûr et optimisé  
+- Appliquer de bonnes pratiques pour un code clair, sûr et efficace  
 
-bon devs et bonne aprentissage ┌( ͝° ͜ʖ͡°)=ε/̵͇̿̿/’̿’̿ ̿
+---
+
+**Bon développement et bon apprentissage !**  
+┌( ͝° ͜ʖ͡°)=ε/̵͇̿̿/’̿’̿ ̿
